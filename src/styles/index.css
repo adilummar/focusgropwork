@@ -1,0 +1,58 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Testimonials Slider Styles */
+.testimonials-slider .slick-dots {
+  bottom: -50px;
+}
+
+.testimonials-slider .slick-dots li button:before {
+  color: #F6B6A8;
+  opacity: 0.3;
+  font-size: 12px;
+}
+
+.testimonials-slider .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #F6B6A8;
+}
+
+.testimonials-slider .slick-prev,
+.testimonials-slider .slick-next {
+  z-index: 1;
+}
+
+.testimonials-slider .slick-prev:before,
+.testimonials-slider .slick-next:before {
+  color: #F6B6A8;
+  opacity: 0.5;
+}
+
+.testimonials-slider .slick-prev:hover:before,
+.testimonials-slider .slick-next:hover:before {
+  opacity: 1;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F6B6A8;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFB4A2;
+}
